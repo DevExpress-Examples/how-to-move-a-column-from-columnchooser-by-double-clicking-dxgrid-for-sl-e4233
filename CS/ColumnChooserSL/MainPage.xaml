@@ -1,0 +1,26 @@
+﻿<UserControl 
+    x:Class="ColumnChooserSL.MainPage" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" 
+    d:DesignHeight="340" 
+    d:DesignWidth="415" 
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+    xmlns:dxgt="clr-namespace:DevExpress.Xpf.Grid.Themes;assembly=DevExpress.Xpf.Grid.v12.1"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+    xmlns:dxgcore="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+    xmlns:local="clr-namespace:ColumnChooserSL">
+    <UserControl.Resources>
+        <local:CustomColumnChooserFactory x:Key="CustomColumnChooser"></local:CustomColumnChooserFactory>
+    </UserControl.Resources>
+        <Grid x:Name="LayoutRoot" Background="White">
+        <dxg:GridControl AutoPopulateColumns="True" Name="gridControl1">
+            <dxg:GridControl.View>
+                <dxg:TableView Name="tableView1" ShowTotalSummary="True" ColumnChooserFactory="{StaticResource CustomColumnChooser}" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</UserControl>
