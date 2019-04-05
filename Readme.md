@@ -3,7 +3,7 @@
 
 * [CustomColumnChooserFactory.cs](./CS/ColumnChooserSL/CustomColumnChooserFactory.cs) (VB: [CustomColumnChooserFactory.vb](./VB/ColumnChooserSL/CustomColumnChooserFactory.vb))
 * [MainPage.xaml](./CS/ColumnChooserSL/MainPage.xaml) (VB: [MainPage.xaml](./VB/ColumnChooserSL/MainPage.xaml))
-* [MainPage.xaml.cs](./CS/ColumnChooserSL/MainPage.xaml.cs) (VB: [MainPage.xaml](./VB/ColumnChooserSL/MainPage.xaml))
+* [MainPage.xaml.cs](./CS/ColumnChooserSL/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/ColumnChooserSL/MainPage.xaml.vb))
 * [Record.cs](./CS/ColumnChooserSL/Record.cs) (VB: [Record.vb](./VB/ColumnChooserSL/Record.vb))
 <!-- default file list end -->
 # How to move a column from ColumnChooser by double-clicking DXGrid for SL
